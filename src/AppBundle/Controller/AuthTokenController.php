@@ -18,6 +18,7 @@ class AuthTokenController extends Controller
      */
     public function postAuthTokensAction(Request $request)
     {
+       
         $credentials = new Credentials();
         $form = $this->createForm(CredentialsType::class, $credentials);
 

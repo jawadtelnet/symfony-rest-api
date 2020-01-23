@@ -25,6 +25,4 @@ preferences:
 auth-tokens:
     type:     rest
     resource: AppBundle\Controller\AuthTokenController
-front:
-    resource: "@AppBundle/Controller/FrontController.php"
-    type: annotation   
+ 
